@@ -1,7 +1,9 @@
-from moviepy.editor import *
+def cutvideo(start, end, path1, path2):
 
-clip = VideoFileClip('/home/dizziolica/Music/Steven/steven.mp4')
+    from moviepy.editor import *
 
-clip = clip.subclip(80, 100)
+    clip = VideoFileClip(path1)
 
-clip.write_videofile('/home/dizziolica/Music/Steven/test.mp4')
+    clip = clip.subclip(start, end)
+
+    clip.write_videofile(path2)
