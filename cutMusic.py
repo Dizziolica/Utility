@@ -1,17 +1,16 @@
-from pydub import AudioSegment
 
-startTime = (30) * 1000
-endTime = (1*60) * 1000
+def cutMusic(start, end, path, formats):
+    from pydub import AudioSegment
 
-from pydub.utils import which
-
+    from pydub.utils import which
 
 
 
 
-song = AudioSegment.from_file("/home/dizziolica/Music/gens.mp3", format="mp3")
-startTime = 80
-endTime = 120
-extract = song[startTime:endTime]
+
+    song = AudioSegment.from_file(path, format= formats)
+    startTime = start
+    endTime = end
+    extract = song[startTime:endTime]
 
 
