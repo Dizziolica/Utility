@@ -11,10 +11,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/Dizziolica/Utility/blob/main/ligacao.py">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/dizziolica.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Utility Project/h3>
+  <h3 align="center">Utility Project</h3>
 
   <p align="center">
     Utility Project
@@ -71,9 +71,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
+this is a collection of tools to automate things I sometimes need to do, as I learn I will add more tools
 
 ## Usage
 
